@@ -1,10 +1,7 @@
-FROM jenkins/jnlp-slave:alpine
+FROM jenkins/jenkins:lts
 USER root
 
 ENV HELM_VERSION 3.3.0
-ENV JENKINS_MASTER http://localhost:8080
-ENV JENKINS_SLAVE_NAME helm3-node
-ENV JENKINS_SLAVE_SECRET ""
 ENV YAMLLINT_VERSION 1.24.2
 
 RUN apk add --no-cache \
