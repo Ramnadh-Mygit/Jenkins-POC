@@ -1,0 +1,20 @@
+Cluster:
+  Geography: "NA"
+  EncryptedServicePrincipalSecret: null
+  Size: "Standard"
+  Awsaccesskeyid: null
+  Users:
+    User2:
+      Role: developer
+      FullName: "sreelakshmi malireddy"
+      IBMID: "srmalire@in.ibm.com"
+      Identity: "IAM:IBMid-310002DNXF"
+    User1:
+      Role: developer
+      FullName: "Subhash Vishwakarma"
+      IBMID: "subvishw@in.ibm.com"
+      Identity: "IAM:IBMid-270003WT7C"
+    User3:
+      IBMID: ankpani1@in.ibm.com
+      Identity: IAM:IBMid-550003RXSF
+      Role: developer
