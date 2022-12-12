@@ -18,3 +18,7 @@ Cluster:
       IBMID: ankpani1@in.ibm.com
       Identity: IAM:IBMid-550003RXSF
       Role: support
+    User4:
+      role: developer
+      name: developer
+      IBMID: ankpani1@in.ibm.com
